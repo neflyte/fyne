@@ -15,9 +15,9 @@ import (
 	"path/filepath"
 	"unsafe"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/driver/mobile/app"
-	"fyne.io/fyne/v2/storage"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/internal/driver/mobile/app"
+	"github.com/neflyte/fyne/v2/storage"
 )
 
 type androidURI struct {

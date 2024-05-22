@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"fyne.io/fyne/v2"
+	"github.com/neflyte/fyne/v2"
 	"github.com/urfave/cli/v2"
 )
 

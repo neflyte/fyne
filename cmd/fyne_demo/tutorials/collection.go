@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/container"
+	"github.com/neflyte/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2/widget"
 )
 
 // collectionScreen loads a tab panel for collection widgets

@@ -5,13 +5,13 @@ import (
 	"image/draw"
 	"sync"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/scale"
-	"fyne.io/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/driver/desktop"
+	"github.com/neflyte/fyne/v2/internal"
+	"github.com/neflyte/fyne/v2/internal/app"
+	"github.com/neflyte/fyne/v2/internal/cache"
+	"github.com/neflyte/fyne/v2/internal/scale"
+	"github.com/neflyte/fyne/v2/theme"
 )
 
 var (

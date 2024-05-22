@@ -12,13 +12,13 @@ import (
 	"sync"
 	"syscall"
 
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/internal/svg"
 	"fyne.io/systray"
+	"github.com/neflyte/fyne/v2/canvas"
+	"github.com/neflyte/fyne/v2/internal/painter"
+	"github.com/neflyte/fyne/v2/internal/svg"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/theme"
 )
 
 var (

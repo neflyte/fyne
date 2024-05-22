@@ -3,7 +3,7 @@ package test
 import (
 	"runtime"
 
-	"fyne.io/fyne/v2"
+	"github.com/neflyte/fyne/v2"
 )
 
 type device struct {

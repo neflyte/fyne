@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	col "fyne.io/fyne/v2/internal/color"
-	"fyne.io/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/canvas"
+	col "github.com/neflyte/fyne/v2/internal/color"
+	"github.com/neflyte/fyne/v2/theme"
 )
 
 const (

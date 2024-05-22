@@ -3,7 +3,7 @@ package commands
 import (
 	"os"
 
-	realUtil "fyne.io/fyne/v2/cmd/fyne/internal/util"
+	realUtil "github.com/neflyte/fyne/v2/cmd/fyne/internal/util"
 )
 
 type packagerUtil interface {

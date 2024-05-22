@@ -5,14 +5,14 @@ import (
 	"image/color"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/internal/painter/software"
-	internalTest "fyne.io/fyne/v2/internal/test"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/canvas"
+	"github.com/neflyte/fyne/v2/container"
+	"github.com/neflyte/fyne/v2/internal/painter/software"
+	internalTest "github.com/neflyte/fyne/v2/internal/test"
+	"github.com/neflyte/fyne/v2/test"
+	"github.com/neflyte/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2/widget"
 )
 
 func makeTestImage(w, h int) image.Image {

@@ -4,7 +4,7 @@
 package glfw
 
 import (
-	"fyne.io/fyne/v2"
+	"github.com/neflyte/fyne/v2"
 
 	"github.com/fyne-io/gl-js"
 	"github.com/fyne-io/glfw-js"

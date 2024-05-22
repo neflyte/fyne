@@ -6,14 +6,14 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/async"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/painter/gl"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/canvas"
+	"github.com/neflyte/fyne/v2/internal"
+	"github.com/neflyte/fyne/v2/internal/app"
+	"github.com/neflyte/fyne/v2/internal/async"
+	"github.com/neflyte/fyne/v2/internal/cache"
+	"github.com/neflyte/fyne/v2/internal/driver"
+	"github.com/neflyte/fyne/v2/internal/painter/gl"
 )
 
 // SizeableCanvas defines a canvas with size related functions.

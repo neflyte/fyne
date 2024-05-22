@@ -4,8 +4,8 @@
 package app
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/theme"
 )
 
 func defaultVariant() fyne.ThemeVariant {

@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"fyne.io/fyne/v2/cmd/fyne/internal/templates"
 	"github.com/fogleman/gg"
+	"github.com/neflyte/fyne/v2/cmd/fyne/internal/templates"
 	"github.com/nfnt/resize"
 
 	"github.com/jackmordaunt/icns/v2"

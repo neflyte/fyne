@@ -9,8 +9,8 @@ import (
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/renderer"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/storage"
 )
 
 // NewRichTextFromMarkdown configures a RichText widget by parsing the provided markdown content.

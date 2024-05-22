@@ -1,4 +1,4 @@
-module fyne.io/fyne/v2
+module github.com/neflyte/fyne/v2
 
 go 1.17
 

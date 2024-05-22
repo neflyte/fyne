@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"fyne.io/fyne/v2/storage"
-	"fyne.io/fyne/v2/storage/repository"
+	"github.com/neflyte/fyne/v2/storage"
+	"github.com/neflyte/fyne/v2/storage/repository"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/canvas"
+	"github.com/neflyte/fyne/v2/test"
+	"github.com/neflyte/fyne/v2/theme"
 
 	"github.com/stretchr/testify/assert"
 )

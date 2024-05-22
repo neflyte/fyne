@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2"
+	"github.com/neflyte/fyne/v2"
 )
 
 func TestEnsureDir(t *testing.T) {

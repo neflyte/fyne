@@ -3,7 +3,7 @@ package theme
 import (
 	"image/color"
 
-	"fyne.io/fyne/v2"
+	"github.com/neflyte/fyne/v2"
 )
 
 const (

@@ -7,14 +7,14 @@ import (
 	"io"
 	"log"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/data/validation"
-	"fyne.io/fyne/v2/dialog"
-	"fyne.io/fyne/v2/storage"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/canvas"
+	"github.com/neflyte/fyne/v2/container"
+	"github.com/neflyte/fyne/v2/data/validation"
+	"github.com/neflyte/fyne/v2/dialog"
+	"github.com/neflyte/fyne/v2/storage"
+	"github.com/neflyte/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2/widget"
 )
 
 func confirmCallback(response bool) {

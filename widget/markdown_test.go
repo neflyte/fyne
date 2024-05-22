@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2/storage"
+	"github.com/neflyte/fyne/v2/storage"
 )
 
 func TestRichTextMarkdown_Blockquote(t *testing.T) {

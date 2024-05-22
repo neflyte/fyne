@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"image/color"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/data/binding"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/canvas"
+	"github.com/neflyte/fyne/v2/data/binding"
+	"github.com/neflyte/fyne/v2/driver/desktop"
+	"github.com/neflyte/fyne/v2/internal/widget"
+	"github.com/neflyte/fyne/v2/theme"
 )
 
 // Check widget has a text label and a checked (or unchecked) icon and triggers an event func when toggled

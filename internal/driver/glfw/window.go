@@ -7,13 +7,13 @@ import (
 	"runtime"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/internal/scale"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/driver/desktop"
+	"github.com/neflyte/fyne/v2/internal/app"
+	"github.com/neflyte/fyne/v2/internal/cache"
+	"github.com/neflyte/fyne/v2/internal/driver"
+	"github.com/neflyte/fyne/v2/internal/driver/common"
+	"github.com/neflyte/fyne/v2/internal/scale"
 )
 
 const (
@@ -571,6 +571,10 @@ func (w *window) processMouseClicked(button desktop.MouseButton, action action, 
 		if !ignore { // if a parent item under the mouse has focus then ignore this tap unfocus
 			w.canvas.Unfocus()
 		}
+	}
+
+	if doubleMoused {
+		return
 	}
 
 	w.mouseLock.Lock()

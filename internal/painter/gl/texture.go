@@ -6,11 +6,11 @@ import (
 	"image/draw"
 	"math"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/cache"
-	paint "fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/canvas"
+	"github.com/neflyte/fyne/v2/internal/cache"
+	paint "github.com/neflyte/fyne/v2/internal/painter"
+	"github.com/neflyte/fyne/v2/theme"
 )
 
 var noTexture = Texture(cache.NoTexture)

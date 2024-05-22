@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/painter"
+	"github.com/neflyte/fyne/v2/internal/cache"
+	"github.com/neflyte/fyne/v2/internal/painter"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/canvas"
+	"github.com/neflyte/fyne/v2/theme"
 )
 
 const (

@@ -6,11 +6,11 @@ package mobile
 import (
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	internalWidget "fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/canvas"
+	internalWidget "github.com/neflyte/fyne/v2/internal/widget"
+	"github.com/neflyte/fyne/v2/theme"
+	"github.com/neflyte/fyne/v2/widget"
 
 	"github.com/stretchr/testify/assert"
 )

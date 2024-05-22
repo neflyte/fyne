@@ -11,8 +11,8 @@ import (
 	"os"
 	"strings"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/neflyte/fyne/v2"
+	"github.com/neflyte/fyne/v2/storage"
 
 	"golang.org/x/sys/execabs"
 )

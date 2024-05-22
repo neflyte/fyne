@@ -269,9 +269,9 @@ type jsonTest struct {
 
 func Test_FyneGoMod(t *testing.T) {
 	jsonTests := []jsonTest{
-		{false, []byte(`{"Module": {"Path": "github.com/fyne-io/calculator"},"Go": "1.14",	"Require": [ { "Path": "fyne.io/fyne/v2","Version": "v2.1.4"} ] }`)},
-		{true, []byte(`{ "Module": {"Path": "fyne.io/fyne/v2"},"Require": [{ "Path": "test","Version": "v2.1.4"} ] }`)},
-		{true, []byte(`{"Module": {"Path": "github.com/fyne-io/calculator"},"Go": "1.14",	"Require": [ { "Path": "fyne.io/fyne/v2","Version": "v2.2.0"} ] }`)},
+		{false, []byte(`{"Module": {"Path": "github.com/fyne-io/calculator"},"Go": "1.14",	"Require": [ { "Path": "github.com/neflyte/fyne/v2","Version": "v2.1.4"} ] }`)},
+		{true, []byte(`{ "Module": {"Path": "github.com/neflyte/fyne/v2"},"Require": [{ "Path": "test","Version": "v2.1.4"} ] }`)},
+		{true, []byte(`{"Module": {"Path": "github.com/fyne-io/calculator"},"Go": "1.14",	"Require": [ { "Path": "github.com/neflyte/fyne/v2","Version": "v2.2.0"} ] }`)},
 	}
 
 	for _, j := range jsonTests {
