@@ -47,6 +47,11 @@ type Mouseable interface {
 	MouseUp(*MouseEvent)
 }
 
+// DoubleMouseable represents a desktop double-click mouse event that can be sent to CanvasObjects
+type DoubleMouseable interface {
+	MouseUpDouble(*MouseEvent)
+}
+
 // Hoverable is used when a canvas object wishes to know if a pointer device moves over it.
 type Hoverable interface {
 	// MouseIn is a hook that is called if the mouse pointer enters the element.

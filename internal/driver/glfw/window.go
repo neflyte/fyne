@@ -515,7 +515,7 @@ func (w *window) processMouseClicked(button desktop.MouseButton, action action, 
 
 	co, pos, _ := w.findObjectAtPositionMatching(w.canvas, mousePos, func(object fyne.CanvasObject) bool {
 		switch object.(type) {
-		case fyne.Tappable, fyne.SecondaryTappable, fyne.DoubleTappable, fyne.Focusable, desktop.Mouseable, desktop.Hoverable:
+		case fyne.Tappable, fyne.SecondaryTappable, fyne.DoubleTappable, fyne.Focusable, desktop.Mouseable, desktop.DoubleMouseable, desktop.Hoverable:
 			return true
 		case fyne.Draggable:
 			if mouseDragStarted {
@@ -531,7 +531,22 @@ func (w *window) processMouseClicked(button desktop.MouseButton, action action, 
 	}
 
 	coMouse := co
-	if wid, ok := co.(desktop.Mouseable); ok {
+
+	doubleMoused := false
+	if wid, ok := co.(desktop.DoubleMouseable); ok {
+		mev := &desktop.MouseEvent{
+			Button:   button,
+			Modifier: modifiers,
+		}
+		mev.Position = ev.Position
+		mev.AbsolutePosition = mousePos
+		if action == release && button == desktop.MouseButtonPrimary && !w.mouseDragStarted {
+			doubleMoused = true
+			w.QueueEvent(func() { wid.MouseUpDouble(mev) })
+		}
+	}
+
+	if wid, ok := co.(desktop.Mouseable); ok && !doubleMoused {
 		mev := &desktop.MouseEvent{
 			Button:   button,
 			Modifier: modifiers,
